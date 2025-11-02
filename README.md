@@ -1,20 +1,20 @@
 ## project:
-  title: "AI-Generated Code Detection (SemEval-2026 Task 13 Subtask A)"
-  author: "Marwah Abdulqader Hasan Ba Suhai"
-  affiliation: "Mohamed Bin Zayed University of Artificial Intelligence (MBZUAI)"
-  course: "NLP701 – Fall 2025"
-  kaggle_leaderboard_id: "Marwah Basuhai"
-  public_macro_f1_score: 0.28224
-  description: 
+  - title: "AI-Generated Code Detection (SemEval-2026 Task 13 Subtask A)"
+  - author: "Marwah Abdulqader Hasan Ba Suhai"
+  - affiliation: "Mohamed Bin Zayed University of Artificial Intelligence (MBZUAI)"
+  - course: "NLP701 – Fall 2025"
+  - kaggle_leaderboard_id: "Marwah Basuhai"
+  - public_macro_f1_score: 0.28224
+  -description: 
     A computationally efficient baseline for detecting AI-generated source code using character-level
     n-gram hashing and logistic regression, developed as part of MBZUAI NLP701 Assignment 2 and
     SemEval-2026 Task 13 Subtask A.
 ---
 ## setup_instructions:
-  environment:
+  - environment:
     install: "pip install -r requirements.txt"
     run_notebook: "jupyter notebook Assignment2.ipynb"
-  regenerate_predictions:
+  - regenerate_predictions:
     steps:
       - "Download dataset from Kaggle: https://www.kaggle.com/competitions/sem-eval-2026-task-13-subtask-a/data"
       - "Place it in data/Task_A/"
@@ -29,16 +29,10 @@
 
 ---
 ## methodology:
-  feature_engineering: "Character-level 3–5 n-grams hashed into 262k dimensions"
-  classifier: "Logistic Regression (solver='saga', C=2.0, class_weight='balanced')"
-  evaluation: "5-fold Stratified Cross-Validation optimized for Macro-F1"
-  inference: "Probability threshold tuned to t* = 0.455 for F1 maximization"
----
-## visualizations:
-  - "Label distribution showing near class balance"
-  - "ROC curve demonstrating high separability (AUC = 0.9909)"
-  - "Confusion matrix illustrating symmetric accuracy"
-  - "Top character n-grams differentiating AI vs human code"
+  - feature_engineering: "Character-level 3–5 n-grams hashed into 262k dimensions"
+  - classifier: "Logistic Regression (solver='saga', C=2.0, class_weight='balanced')"
+  - evaluation: "5-fold Stratified Cross-Validation optimized for Macro-F1"
+  - inference: "Probability threshold tuned to t* = 0.455 for F1 maximization"
 ---
 ## key_insights:
   - "Character n-gram features effectively capture stylistic distinctions."
@@ -53,7 +47,6 @@
 ## acknowledgments:
   - "Developed as part of MBZUAI NLP701: Advanced NLP."
   - "Task and dataset by SemEval-2026 Task 13 organizers."
-  - "Thanks to MBZUAI faculty and the Kaggle community."
 ---
 ## references:
   - "Bernecker, T. et al. (2023). Detecting Machine-Generated Code in the Wild. arXiv:2311.04567."
