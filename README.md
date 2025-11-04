@@ -27,11 +27,15 @@
 
 ## results_summary
 
-| Metric       | Cross-Validation | Public Validation | Public Test (Kaggle) |
-|---------------|------------------|-------------------|----------------------|
-| **Macro-F1** | 0.9555           | 0.9550            | 0.45033              |
-| **AUC**      | 0.9909           | —                 | —                    |
-| **Threshold (t\_final)** | 0.485 | — | — |
+| Class      | Precision | Recall | F1-score | Support |
+|-------------|------------|---------|-----------|----------|
+| **Human (0)**   | 0.9523 | 0.9549 | 0.9536 | 238 475 |
+| **Machine (1)** | 0.9588 | 0.9564 | 0.9576 | 261 525 |
+| **Accuracy**    | — | — | **0.9556** | 500 000 |
+| **Macro Avg**   | 0.9555 | 0.9556 | 0.9556 | 500 000 |
+| **Weighted Avg**| 0.9557 | 0.9556 | 0.9557 | 500 000 |
+
+**Cross-validation macro-F1:** 0.9556 | **Public Kaggle macro-F1:** 0.45033 | **Threshold (t₍final₎):** 0.485
 
 ---
 
