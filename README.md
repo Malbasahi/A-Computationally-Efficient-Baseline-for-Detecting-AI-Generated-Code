@@ -1,5 +1,5 @@
 ## project
-  title: "AI-Generated Code Detection (SemEval-2026 Task 13 Subtask A)"
+  Title: "AI-Generated Code Detection (SemEval-2026 Task 13 Subtask A)"
   author: "Marwah Abdulqader Hasan Ba Suhai"
   affiliation: "Mohamed Bin Zayed University of Artificial Intelligence (MBZUAI)"
   course: "NLP701 – Fall 2025"
