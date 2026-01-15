@@ -516,7 +516,7 @@ toml==0.10.2
 tomli==2.2.1
 toolz==1.0.0
 topic-monitor==0.20.5
-torch==2.7.0.dev20250310+cu124
+torch==2.8.0
 tornado==6.5.2
 tqdm==4.67.1
 traitlets==5.14.3
