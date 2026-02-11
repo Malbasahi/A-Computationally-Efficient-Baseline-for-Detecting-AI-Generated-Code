@@ -313,7 +313,7 @@ pcl-msgs==1.0.0
 pendulum-msgs==0.20.5
 pettingzoo==1.25.0
 pexpect==4.8.0
-pillow==11.3.0
+pillow==12.1.1
 platformdirs==4.4.0
 pluggy==1.6.0
 ply==3.11
