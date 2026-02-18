@@ -206,7 +206,7 @@ jupyterlab==4.4.7
 jupyterlab_pygments==0.3.0
 jupyterlab_server==2.27.3
 kaggle==1.7.4.5
-keras==3.11.3
+keras==3.13.2
 keyring==23.5.0
 kiwisolver==1.4.9
 language-selector==0.1
